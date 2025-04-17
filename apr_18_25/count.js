@@ -23,185 +23,95 @@ let sidesArr = [
 
 let objsArr = [
   { impressions: 400, colors: 2, sides: 2 },
-
   { impressions: 400, colors: 2, sides: 2 },
-
   { impressions: 200, colors: 2, sides: 2 },
-
   { impressions: 200, colors: 2, sides: 2 },
-
   { impressions: 400, colors: 1, sides: 2 },
-
   { impressions: 2000, colors: 1, sides: 2 },
-
   { impressions: 2000, colors: 1, sides: 2 },
-
   { impressions: 800, colors: 1, sides: 2 },
-
   { impressions: 800, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 1 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 400, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 400, colors: 2, sides: 2 },
-
   { impressions: 200, colors: 2, sides: 1 },
-
   { impressions: 500, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 800, colors: 2, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 2, sides: 1 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 125, colors: 1, sides: 1 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 400, colors: 2, sides: 2 },
-
   { impressions: 200, colors: 4, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 2, sides: 2 },
-
   { impressions: 100, colors: 2, sides: 2 },
-
   { impressions: 600, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 1 },
-
   { impressions: 400, colors: 2, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 1 },
-
   { impressions: 200, colors: 4, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 9000, colors: 3, sides: 2 },
-
   { impressions: 400, colors: 2, sides: 1 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 1 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 2, sides: 1 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 400, colors: 2, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 1 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 2, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 1 },
-
   { impressions: 200, colors: 2, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 1 },
-
   { impressions: 25, colors: 2, sides: 1 },
-
   { impressions: 100, colors: 2, sides: 1 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 2, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 500, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 400, colors: 2, sides: 2 },
-
   { impressions: 150, colors: 1, sides: 2 },
-
   { impressions: 400, colors: 2, sides: 2 },
-
   { impressions: 300, colors: 2, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 400, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 2, sides: 2 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 1, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 1 },
-
   { impressions: 200, colors: 2, sides: 2 },
-
   { impressions: 50, colors: 1, sides: 2 },
-
   { impressions: 200, colors: 2, sides: 2 },
-
   { impressions: 200, colors: 2, sides: 2 },
-
   { impressions: 100, colors: 1, sides: 1 },
 ];
 
