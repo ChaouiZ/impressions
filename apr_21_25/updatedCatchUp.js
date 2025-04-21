@@ -453,7 +453,7 @@ let objsArr = [
     sides: 2,
     color1: "rb",
     color2: "b",
-    color3: "  ",
+    color3: " ",
   },
   {
     impressions: 100,
@@ -469,7 +469,7 @@ let objsArr = [
     sides: 2,
     color1: "b",
     color2: " ",
-    color3: "  ",
+    color3: " ",
   },
   {
     impressions: 200,
