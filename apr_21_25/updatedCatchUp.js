@@ -694,7 +694,16 @@ function impressionsBreakdown(arr) {
   );
 }
 
+function boardCount(arr) {
+  let count = 0;
+  for (let i = 0; i < arr.length; i++) {
+    count += arr[i].impressions / (arr[i].colors * arr[i].sides);
+  }
+  console.log(`\nThere are ${count} boards being printed.\n`);
+}
+
 sum(objsArr);
 colorsAccounting(objsArr);
 sidesAccounting(objsArr);
 impressionsBreakdown(objsArr);
+boardCount(objsArr);
