@@ -705,6 +705,26 @@ let objsArr = [
   },
 ];
 
+const colorsObj = {
+  fr: "Fire Red",
+  b: "Black",
+  xb: "Reflex Blue",
+  g: "Green",
+  rb: "Royal Blue",
+  rr: "Rubine Red",
+  rh: "Rhodamine Red",
+  nb: "Navy Blue",
+  pb: "Process Blue",
+  ly: "Lemon Yellow",
+  bo: "Bright Orange",
+  p: "Purple",
+  v: "Violet",
+  hp: "Hot Pink",
+  rg: "Reef Green",
+  lg: "Light Green",
+  pms: "Pantone Color",
+};
+
 let numberOfOrderProducts = objsArr.length;
 
 function sum(arr) {
