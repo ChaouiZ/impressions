@@ -1,0 +1,6 @@
+What information do we need to find? 
+
+1. How many impressions of each color are late and/or due on a given day. 
+2. Find out how many 1 color impressions are due of each color. 
+3. Find out how many 2 color order products share both colors. 
+4. Find out how many 2 color order products share at least 1 color with the top 1-color impressions.  

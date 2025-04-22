@@ -678,8 +678,165 @@ function boardCount(arr) {
   console.log(`\nThere are ${count} boards due to print.\n`);
 }
 
+function displayOneColorObjs(arr) {
+  let fr = 0;
+  let frImpressions = 0;
+  let b = 0;
+  let bImpressions = 0;
+  let xb = 0;
+  let xbImpressions = 0;
+  let g = 0;
+  let gImpressions = 0;
+  let rb = 0;
+  let rbImpressions = 0;
+  let rr = 0;
+  let rrImpressions = 0;
+  let rh = 0;
+  let rhImpressions = 0;
+  let nb = 0;
+  let nbImpressions = 0;
+  let pb = 0;
+  let pbImpressions = 0;
+  let ly = 0;
+  let lyImpressions = 0;
+  let bo = 0;
+  let boImpressions = 0;
+  let p = 0;
+  let pImpressions = 0;
+  let v = 0;
+  let vImpressions = 0;
+  let hp = 0;
+  let hpImpressions = 0;
+  let rg = 0;
+  let rgImpressions = 0;
+  let lg = 0;
+  let lgImpressions = 0;
+  let pms = 0;
+  let pmsImpressions = 0;
+  for (i of arr) {
+    switch (i.color1) {
+      case "fr":
+        fr++;
+        frImpressions += i.impressions;
+        break;
+      case "b":
+        b++;
+        bImpressions += i.impressions;
+        break;
+      case "xb":
+        xb++;
+        xbImpressions += i.impressions;
+        break;
+      case "g":
+        g++;
+        gImpressions += i.impressions;
+        break;
+      case "rb":
+        rb++;
+        rbImpressions += i.impressions;
+        break;
+      case "rr":
+        rr++;
+        rrImpressions += i.impressions;
+        break;
+      case "rh":
+        rh++;
+        rhImpressions += i.impressions;
+        break;
+      case "nb":
+        nb++;
+        nbImpressions += i.impressions;
+        break;
+      case "pb":
+        pb++;
+        pbImpressions += i.impressions;
+        break;
+      case "ly":
+        ly++;
+        lyImpressions += i.impressions;
+        break;
+      case "bo":
+        bo++;
+        boImpressions += i.impressions;
+        break;
+      case "p":
+        p++;
+        pImpressions += i.impressions;
+        break;
+      case "v":
+        v++;
+        vImpressions += i.impressions;
+        break;
+      case "hp":
+        hp++;
+        hpImpressions += i.impressions;
+        break;
+      case "rg":
+        rg++;
+        rgImpressions += i.impressions;
+        break;
+      case "lg":
+        lg++;
+        lgImpressions += i.impressions;
+        break;
+      case "pms":
+        pms++;
+        pmsImpressions += i.impressions;
+    }
+  }
+  console.log(
+    `
+ ${colorsObj.fr} - ${fr} Order Products - ${frImpressions} Impressions
+ 
+ ${colorsObj.b} -  ${b} Order Products - ${bImpressions} Impressions
+ 
+ ${colorsObj.xb} - ${xb} Order Products - ${xbImpressions} Impressions
+ 
+ ${colorsObj.g} -  ${g} Order Products - ${gImpressions} Impressions
+ 
+ ${colorsObj.rb} - ${rb} Order Products - ${rbImpressions} Impressions
+ 
+ ${colorsObj.rr} - ${rr} Order Products - ${rrImpressions} Impressions
+ 
+ ${colorsObj.rh} - ${rh} Order Products - ${rhImpressions} Impressions
+ 
+ ${colorsObj.nb} - ${nb} Order Products - ${nbImpressions} Impressions
+ 
+ ${colorsObj.pb} - ${pb} Order Products - ${pbImpressions} Impressions
+ 
+ ${colorsObj.ly} - ${ly} Order Products - ${lyImpressions} Impressions
+ 
+ ${colorsObj.bo} - ${bo} Order Products - ${boImpressions} Impressions
+ 
+ ${colorsObj.p} -  ${p} Order Products - ${pImpressions} Impressions
+ 
+ ${colorsObj.v} -  ${v} Order Products - ${vImpressions} Impressions
+ 
+ ${colorsObj.hp} - ${hp} Order Products - ${hpImpressions} Impressions
+ 
+ ${colorsObj.rg} - ${rg} Order Products - ${rgImpressions} Impressions
+ 
+ ${colorsObj.lg} - ${lg} Order Products - ${lgImpressions} Impressions
+ 
+ ${colorsObj.pms} - ${pms} Order Products - ${pmsImpressions} Impressions
+ \n`
+  );
+}
+
+function oneColor(arr) {
+  const oneColorArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].colors === 1) {
+      oneColorArr.push(arr[i]);
+    }
+  }
+  console.log(`One Color Impressions`);
+  displayOneColorObjs(oneColorArr);
+}
+
 sum(objsArr);
 colorsAccounting(objsArr);
 sidesAccounting(objsArr);
 impressionsBreakdown(objsArr);
 boardCount(objsArr);
+oneColor(objsArr);
