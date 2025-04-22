@@ -839,7 +839,7 @@ function boardCount(arr) {
   for (let i = 0; i < arr.length; i++) {
     count += arr[i].impressions / (arr[i].colors * arr[i].sides);
   }
-  console.log(`\nThere are ${count} boards being printed.\n`);
+  console.log(`\nThere are ${count} boards due to print.\n`);
 }
 
 sum(objsArr);
