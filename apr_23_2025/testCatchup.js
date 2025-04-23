@@ -1227,12 +1227,20 @@ function matchingTwoColors(arr) {
   const comboCounts = {};
 
   for (const product of arr) {
-    const color1 = product.color1;
-    const color2 = product.color2;
+    let color1 = product.color1;
+    let color2 = product.color2;
 
     if (color1 === "pms" || color2 === "pms") continue;
 
-    const combo = [color1, color2].sort().join("-");
+    if (color1 in colorsObj) {
+      color1 = colorsObj[color1];
+    }
+
+    if (color2 in colorsObj) {
+      color2 = colorsObj[color2];
+    }
+
+    const combo = [color1, color2].sort().join(" and ");
 
     comboCounts[combo] = (comboCounts[combo] || 0) + 1;
   }
@@ -1240,6 +1248,7 @@ function matchingTwoColors(arr) {
   for (const [combo, count] of Object.entries(comboCounts)) {
     console.log(`${combo}: ${count} products`);
   }
+  console.log(`\n`);
 }
 
 function oneColor(arr) {
