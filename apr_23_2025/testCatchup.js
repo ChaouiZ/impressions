@@ -1073,29 +1073,133 @@ function boardCount(arr) {
 }
 
 function analyzeOneColorObjs(arr) {
-  const fr = { products: 0, impressions: 0, colorName: "Fire Red" };
-  const b = { products: 0, impressions: 0, colorName: "Black" };
-  const xb = { products: 0, impressions: 0, colorName: "Reflex Blue" };
-  const g = { products: 0, impressions: 0, colorName: "Green" };
-  const rb = { products: 0, impressions: 0, colorName: "Royal Blue" };
-  const rr = { products: 0, impressions: 0, colorName: "Rubine Red" };
-  const rh = { products: 0, impressions: 0, colorName: "Rhodamine Red" };
-  const nb = { products: 0, impressions: 0, colorName: "Navy Blue" };
-  const pb = { products: 0, impressions: 0, colorName: "Process Blue" };
-  const ly = { products: 0, impressions: 0, colorName: "Lemon Yellow" };
-  const bo = { products: 0, impressions: 0, colorName: "Bright Orange" };
-  const p = { products: 0, impressions: 0, colorName: "Purple" };
-  const v = { products: 0, impressions: 0, colorName: "Violet" };
-  const hp = { products: 0, impressions: 0, colorName: "Hot Pink" };
-  const rg = { products: 0, impressions: 0, colorName: "Reef Green" };
-  const lg = { products: 0, impressions: 0, colorName: "Light Green" };
-  const pms = { products: 0, impressions: 0, colorName: "Pantone" };
+  const fr = {
+    products: 0,
+    impressions: 0,
+    colorName: "Fire Red",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const b = {
+    products: 0,
+    impressions: 0,
+    colorName: "Black",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const xb = {
+    products: 0,
+    impressions: 0,
+    colorName: "Reflex Blue",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const g = {
+    products: 0,
+    impressions: 0,
+    colorName: "Green",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const rb = {
+    products: 0,
+    impressions: 0,
+    colorName: "Royal Blue",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const rr = {
+    products: 0,
+    impressions: 0,
+    colorName: "Rubine Red",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const rh = {
+    products: 0,
+    impressions: 0,
+    colorName: "Rhodamine Red",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const nb = {
+    products: 0,
+    impressions: 0,
+    colorName: "Navy Blue",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const pb = {
+    products: 0,
+    impressions: 0,
+    colorName: "Process Blue",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const ly = {
+    products: 0,
+    impressions: 0,
+    colorName: "Lemon Yellow",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const bo = {
+    products: 0,
+    impressions: 0,
+    colorName: "Bright Orange",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const p = {
+    products: 0,
+    impressions: 0,
+    colorName: "Purple",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const v = {
+    products: 0,
+    impressions: 0,
+    colorName: "Violet",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const hp = {
+    products: 0,
+    impressions: 0,
+    colorName: "Hot Pink",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const rg = {
+    products: 0,
+    impressions: 0,
+    colorName: "Reef Green",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const lg = {
+    products: 0,
+    impressions: 0,
+    colorName: "Light Green",
+    orderNumbers: [],
+    itemIds: [],
+  };
+  const pms = {
+    products: 0,
+    impressions: 0,
+    colorName: "Pantone",
+    orderNumbers: [],
+    itemIds: [],
+  };
   const colObjectArr = [];
   for (i of arr) {
     switch (i.color1) {
       case "fr":
         fr.products++;
         fr.impressions += i.impressions;
+        fr.orderNumbers.push(i.orderNumber);
+        fr.itemIds.push(i.orderID);
         if (!colObjectArr.includes(fr)) {
           colObjectArr.push(fr);
         }
@@ -1103,6 +1207,8 @@ function analyzeOneColorObjs(arr) {
       case "b":
         b.products++;
         b.impressions += i.impressions;
+        b.orderNumbers.push(i.orderNumber);
+        b.itemIds.push(i.orderID);
         if (!colObjectArr.includes(b)) {
           colObjectArr.push(b);
         }
@@ -1110,6 +1216,8 @@ function analyzeOneColorObjs(arr) {
       case "xb":
         xb.products++;
         xb.impressions += i.impressions;
+        xb.orderNumbers.push(i.orderNumber);
+        xb.itemIds.push(i.orderID);
         if (!colObjectArr.includes(xb)) {
           colObjectArr.push(xb);
         }
@@ -1117,6 +1225,8 @@ function analyzeOneColorObjs(arr) {
       case "g":
         g.products++;
         g.impressions += i.impressions;
+        g.orderNumbers.push(i.orderNumber);
+        g.itemIds.push(i.orderID);
         if (!colObjectArr.includes(g)) {
           colObjectArr.push(g);
         }
@@ -1124,6 +1234,8 @@ function analyzeOneColorObjs(arr) {
       case "rb":
         rb.products++;
         rb.impressions += i.impressions;
+        rb.orderNumbers.push(i.orderNumber);
+        rb.itemIds.push(i.orderID);
         if (!colObjectArr.includes(rb)) {
           colObjectArr.push(rb);
         }
@@ -1131,6 +1243,8 @@ function analyzeOneColorObjs(arr) {
       case "rr":
         rr.products++;
         rr.impressions += i.impressions;
+        rr.orderNumbers.push(i.orderNumber);
+        rr.itemIds.push(i.orderID);
         if (!colObjectArr.includes(rr)) {
           colObjectArr.push(rr);
         }
@@ -1138,6 +1252,8 @@ function analyzeOneColorObjs(arr) {
       case "rh":
         rh.products++;
         rh.impressions += i.impressions;
+        rh.orderNumbers.push(i.orderNumber);
+        rh.itemIds.push(i.orderID);
         if (!colObjectArr.includes(rh)) {
           colObjectArr.push(rh);
         }
@@ -1145,6 +1261,8 @@ function analyzeOneColorObjs(arr) {
       case "nb":
         nb.products++;
         nb.impressions += i.impressions;
+        nb.orderNumbers.push(i.orderNumber);
+        nb.itemIds.push(i.orderID);
         if (!colObjectArr.includes(nb)) {
           colObjectArr.push(nb);
         }
@@ -1152,6 +1270,8 @@ function analyzeOneColorObjs(arr) {
       case "pb":
         pb.products++;
         pb.impressions += i.impressions;
+        pb.orderNumbers.push(i.orderNumber);
+        pb.itemIds.push(i.orderID);
         if (!colObjectArr.includes(pb)) {
           colObjectArr.push(pb);
         }
@@ -1159,6 +1279,8 @@ function analyzeOneColorObjs(arr) {
       case "ly":
         ly.products++;
         ly.impressions += i.impressions;
+        ly.orderNumbers.push(i.orderNumber);
+        ly.itemIds.push(i.orderID);
         if (!colObjectArr.includes(ly)) {
           colObjectArr.push(ly);
         }
@@ -1166,6 +1288,8 @@ function analyzeOneColorObjs(arr) {
       case "bo":
         bo.products++;
         bo.impressions += i.impressions;
+        bo.orderNumbers.push(i.orderNumber);
+        bo.itemIds.push(i.orderID);
         if (!colObjectArr.includes(bo)) {
           colObjectArr.push(bo);
         }
@@ -1173,6 +1297,8 @@ function analyzeOneColorObjs(arr) {
       case "p":
         p.products++;
         p.impressions += i.impressions;
+        p.orderNumbers.push(i.orderNumber);
+        p.itemIds.push(i.orderID);
         if (!colObjectArr.includes(p)) {
           colObjectArr.push(p);
         }
@@ -1180,6 +1306,8 @@ function analyzeOneColorObjs(arr) {
       case "v":
         v.products++;
         v.impressions += i.impressions;
+        v.orderNumbers.push(i.orderNumber);
+        v.itemIds.push(i.orderID);
         if (!colObjectArr.includes(v)) {
           colObjectArr.push(v);
         }
@@ -1187,6 +1315,8 @@ function analyzeOneColorObjs(arr) {
       case "hp":
         hp.products++;
         hp.impressions += i.impressions;
+        hp.orderNumbers.push(i.orderNumber);
+        hp.itemIds.push(i.orderID);
         if (!colObjectArr.includes(hp)) {
           colObjectArr.push(hp);
         }
@@ -1194,6 +1324,8 @@ function analyzeOneColorObjs(arr) {
       case "rg":
         rg.products++;
         rg.impressions += i.impressions;
+        rg.orderNumbers.push(i.orderNumber);
+        rg.itemIds.push(i.orderID);
         if (!colObjectArr.includes(rg)) {
           colObjectArr.push(rg);
         }
@@ -1201,6 +1333,8 @@ function analyzeOneColorObjs(arr) {
       case "lg":
         lg.products++;
         lg.impressions += i.impressions;
+        lg.orderNumbers.push(i.orderNumber);
+        lg.itemIds.push(i.orderID);
         if (!colObjectArr.includes(lg)) {
           colObjectArr.push(lg);
         }
@@ -1208,6 +1342,8 @@ function analyzeOneColorObjs(arr) {
       case "pms":
         pms.products++;
         pms.impressions += i.impressions;
+        pms.orderNumbers.push(i.orderNumber);
+        pms.itemIds.push(i.orderID);
         if (!colObjectArr.includes(pms)) {
           colObjectArr.push(pms);
         }
@@ -1216,8 +1352,11 @@ function analyzeOneColorObjs(arr) {
 
   for (obj of colObjectArr) {
     console.log(
-      `${obj.colorName} - ${obj.products} products - ${obj.impressions} impressions\n`
+      `\n${obj.colorName} - ${obj.products} products - ${obj.impressions} impressions`
     );
+    for (let i = 0; i < obj.orderNumbers.length; i++) {
+      console.log(`${obj.orderNumbers[i]} ${obj.itemIds[i]}`);
+    }
   }
 }
 
@@ -1229,6 +1368,11 @@ function matchingTwoColors(arr) {
   for (const product of arr) {
     let color1 = product.color1;
     let color2 = product.color2;
+    const impressions = product.impressions;
+    console.log(impressions);
+    const perColorImpressions = impressions / 2;
+    const orderNum = product.orderNumber;
+    const itemId = product.orderID;
 
     if (color1 === "pms" || color2 === "pms") continue;
 
@@ -1243,10 +1387,11 @@ function matchingTwoColors(arr) {
     const combo = [color1, color2].sort().join(" and ");
 
     comboCounts[combo] = (comboCounts[combo] || 0) + 1;
+    console.log(comboCounts);
   }
 
   for (const [combo, count] of Object.entries(comboCounts)) {
-    console.log(`${combo}: ${count} products`);
+    console.log(`${combo}: ${count} products.`);
   }
   console.log(`\n`);
 }
@@ -1258,7 +1403,7 @@ function oneColor(arr) {
       oneColorArr.push(arr[i]);
     }
   }
-  console.log(`One Color Impressions\n`);
+  console.log(`One Color Impressions`);
   analyzeOneColorObjs(oneColorArr);
 }
 
