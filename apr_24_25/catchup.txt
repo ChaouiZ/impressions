@@ -1,0 +1,115 @@
+
+Record of active orders late or due on 4/24/25 as of: Thu Apr 24 2025 16:03:48 GMT-0500 (Central Daylight Time)
+
+Number of order products: 53
+Average impressions per order: 549.7547169811321
+Total impressions due: 29137
+
+1 Color: 17 - 32%
+2 Colors: 26 - 49%
+3 Colors: 5 - 9%
+4 Colors: 5 - 9%
+Average number of colors per order product: 1.9622641509433962
+
+1 Side: 8 - 15%
+2 Sides: 45 - 85%
+Average number of sides per order: 1.849056603773585
+
+Number of 1-color impressions: 4117 - 14%
+Number of 2-color impressions: 9420 - 32%
+Number of 3-color impressions: 4200 - 14%
+Number of 4-color impressions: 11400 - 39%
+
+
+There are 7163.5 boards due to print.
+
+One Color Impressions
+
+Pantone - 2 products - 250 impressions
+218453 A
+220314 A
+
+Black - 10 products - 3267 impressions
+218757 A
+220330 A
+220256 A
+220022 B
+219478 A
+219422 A
+219383 A
+219363 A
+219270 A
+220426 A
+
+Royal Blue - 1 products - 50 impressions
+219054 A
+
+Green - 3 products - 500 impressions
+219274 A
+218769 A
+218465 A
+
+Fire Red - 1 products - 50 impressions
+220400 A
+
+Two Color Impressions
+
+Black and Lemon Yellow: 2 products.
+218816 A - 200 Impressions per Color
+220435 A - 200 Impressions per Color
+400 Total Impressions per Color
+
+
+Black and Green: 1 products.
+218296 A - 50 Impressions per Color
+50 Total Impressions per Color
+
+
+Black and Fire Red: 7 products.
+219038 A - 200 Impressions per Color
+219387 A - 200 Impressions per Color
+219380 A - 200 Impressions per Color
+219314 C - 200 Impressions per Color
+219252 A - 200 Impressions per Color
+219214 A - 200 Impressions per Color
+219005 A - 50 Impressions per Color
+1250 Total Impressions per Color
+
+
+Green and Navy Blue: 1 products.
+219000 A - 100 Impressions per Color
+100 Total Impressions per Color
+
+
+Fire Red and Reflex Blue: 1 products.
+220434 A - 160 Impressions per Color
+160 Total Impressions per Color
+
+
+Black and Royal Blue: 1 products.
+219736 A - 100 Impressions per Color
+100 Total Impressions per Color
+
+
+Bright Orange and Reflex Blue: 2 products.
+219321 A - 200 Impressions per Color
+219321 B - 200 Impressions per Color
+400 Total Impressions per Color
+
+
+Green and Royal Blue: 1 products.
+219314 B - 150 Impressions per Color
+150 Total Impressions per Color
+
+
+Lemon Yellow and Reflex Blue: 1 products.
+219302 A - 50 Impressions per Color
+50 Total Impressions per Color
+
+
+Process Blue and Reflex Blue: 1 products.
+219254 A - 200 Impressions per Color
+200 Total Impressions per Color
+
+
+
