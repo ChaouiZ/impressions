@@ -1,0 +1,122 @@
+
+Record of active orders coming due on 4/23/25 as of: Thu Apr 24 2025 14:21:45 GMT-0500 (Central Daylight Time)
+
+Number of order products: 67
+Average impressions per order: 264.55223880597015
+Total impressions due: 17725
+
+1 Color: 45 - 67%
+2 Colors: 17 - 25%
+3 Colors: 4 - 6%
+4 Colors: 1 - 1%
+Average number of colors per order product: 1.4179104477611941
+
+1 Side: 20 - 30%
+2 Sides: 47 - 70%
+Average number of sides per order: 1.7014925373134329
+
+Number of 1-color impressions: 6625 - 37%
+Number of 2-color impressions: 5150 - 29%
+Number of 3-color impressions: 1950 - 11%
+Number of 4-color impressions: 4000 - 23%
+
+
+There are 6537.5 boards due to print.
+
+One Color Impressions
+
+Black - 14 products - 2650 impressions
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+
+Fire Red - 8 products - 950 impressions
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+
+Reflex Blue - 9 products - 1400 impressions
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+undefined undefined
+
+Pantone - 3 products - 250 impressions
+undefined undefined
+undefined undefined
+undefined undefined
+
+Process Blue - 2 products - 300 impressions
+undefined undefined
+undefined undefined
+
+Green - 3 products - 250 impressions
+undefined undefined
+undefined undefined
+undefined undefined
+
+Bright Orange - 1 products - 100 impressions
+undefined undefined
+
+Royal Blue - 2 products - 125 impressions
+undefined undefined
+undefined undefined
+
+Navy Blue - 3 products - 600 impressions
+undefined undefined
+undefined undefined
+undefined undefined
+
+Two Color Impressions
+
+Black and Green: 1 products.
+undefined undefined - 100 Impressions per Color
+100 Total Impressions per Color
+
+
+Black and Fire Red: 10 products.
+undefined undefined - 25 Impressions per Color
+undefined undefined - 200 Impressions per Color
+undefined undefined - 200 Impressions per Color
+undefined undefined - 200 Impressions per Color
+undefined undefined - 200 Impressions per Color
+undefined undefined - 200 Impressions per Color
+undefined undefined - 200 Impressions per Color
+undefined undefined - 200 Impressions per Color
+undefined undefined - 50 Impressions per Color
+undefined undefined - 200 Impressions per Color
+1675 Total Impressions per Color
+
+
+Fire Red and Royal Blue: 1 products.
+undefined undefined - 50 Impressions per Color
+50 Total Impressions per Color
+
+
+Black and Process Blue: 1 products.
+undefined undefined - 200 Impressions per Color
+200 Total Impressions per Color
+
+
+

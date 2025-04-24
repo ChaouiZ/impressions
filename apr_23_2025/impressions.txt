@@ -64,4 +64,5 @@
 {impressions:600 ,    colors:3, sides:2,     color1:"xb", color2:"pb", color3:"lg",},                                                                                     
 {impressions:50  ,    colors:1, sides:2,     color1:"fr", color2:" ", color3:" ",},                                                                             
 {impressions:100 ,    colors:2, sides:1,     color1:"b", color2:"pms", color3:" ",},                                                                                 
-{impressions:200 ,    colors:1, sides:2,     color1:"fr", color2:" ", color3:" ",},                                                                                                                  
+
+

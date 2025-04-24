@@ -1,0 +1,149 @@
+
+Record of active orders late or due on 4/23/25 as of: Thu Apr 24 2025 14:21:31 GMT-0500 (Central Daylight Time)
+
+Number of order products: 93
+Average impressions per order: 347.31182795698925
+Total impressions due: 32300
+
+1 Color: 24 - 26%
+2 Colors: 52 - 56%
+3 Colors: 7 - 8%
+4 Colors: 10 - 11%
+Average number of colors per order product: 2.032258064516129
+
+1 Side: 17 - 18%
+2 Sides: 76 - 82%
+Average number of sides per order: 1.8172043010752688
+
+Number of 1-color impressions: 5250 - 16%
+Number of 2-color impressions: 14250 - 44%
+Number of 3-color impressions: 3000 - 9%
+Number of 4-color impressions: 9800 - 30%
+
+
+There are 8825 boards due to print.
+
+One Color Impressions
+
+Pantone - 5 products - 400 impressions
+218453 A
+218138 A
+219190 A
+219190 B
+219144 A
+
+Black - 5 products - 2100 impressions
+218757 A
+220182 A
+219200 A
+220022 A
+220022 B
+
+Green - 5 products - 1150 impressions
+218727 A
+219159 C
+219147 A
+218951 A
+218172 C
+
+Royal Blue - 1 products - 50 impressions
+220181 A
+
+Fire Red - 2 products - 500 impressions
+219157 B
+219334 A
+
+Navy Blue - 3 products - 600 impressions
+219047 A
+219280 A
+219188 A
+
+Reflex Blue - 3 products - 450 impressions
+219037 A
+219021 A
+219049 A
+
+Two Color Impressions
+
+Black and Fire Red: 16 products.
+217467 A - 100 Impressions per Color
+218945 A - 200 Impressions per Color
+219075 A - 100 Impressions per Color
+219040 A - 200 Impressions per Color
+219006 A - 200 Impressions per Color
+218880 A - 100 Impressions per Color
+219294 A - 50 Impressions per Color
+219243 A - 200 Impressions per Color
+219243 B - 200 Impressions per Color
+219225 A - 200 Impressions per Color
+219217 A - 200 Impressions per Color
+219196 A - 200 Impressions per Color
+219053 A - 200 Impressions per Color
+219052 A - 50 Impressions per Color
+219038 A - 200 Impressions per Color
+219183 A - 200 Impressions per Color
+2600 Total Impressions per Color
+
+
+Fire Red and Royal Blue: 4 products.
+218226 A - 50 Impressions per Color
+217197 A - 25 Impressions per Color
+219090 A - 200 Impressions per Color
+219239 A - 50 Impressions per Color
+325 Total Impressions per Color
+
+
+Black and Process Blue: 3 products.
+218585 A - 200 Impressions per Color
+218705 A - 200 Impressions per Color
+219179 A - 200 Impressions per Color
+600 Total Impressions per Color
+
+
+Black and Hot Pink: 2 products.
+218812 A - 50 Impressions per Color
+218812 B - 50 Impressions per Color
+100 Total Impressions per Color
+
+
+Black and Lemon Yellow: 1 products.
+218816 A - 200 Impressions per Color
+200 Total Impressions per Color
+
+
+Black and Royal Blue: 3 products.
+218737 A - 100 Impressions per Color
+219175 A - 200 Impressions per Color
+219006 B - 50 Impressions per Color
+350 Total Impressions per Color
+
+
+Fire Red and Reflex Blue: 3 products.
+218665 A - 100 Impressions per Color
+220051 A - 50 Impressions per Color
+219106 A - 50 Impressions per Color
+200 Total Impressions per Color
+
+
+Lemon Yellow and Purple: 1 products.
+218429 A - 100 Impressions per Color
+100 Total Impressions per Color
+
+
+Black and Light Green: 1 products.
+220160 A - 100 Impressions per Color
+100 Total Impressions per Color
+
+
+Green and Royal Blue: 1 products.
+218900 A - 100 Impressions per Color
+100 Total Impressions per Color
+
+
+Black and Green: 2 products.
+219220 A - 100 Impressions per Color
+218296 A - 50 Impressions per Color
+150 Total Impressions per Color
+
+
+
