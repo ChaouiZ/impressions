@@ -793,8 +793,56 @@ const colorsObj = {
 
 let date = new Date();
 
+const path = require("path");
+
+const dirPath = path.dirname(__filename);
+const dirName = path.basename(dirPath);
+let dirMonth = dirName.slice(0, 3);
+
+function getMonth(directoryMonthStr) {
+  switch (directoryMonthStr) {
+    case "jan":
+      return "January";
+      break;
+    case "feb":
+      return "February";
+      break;
+    case "mar":
+      return "March";
+      break;
+    case "apr":
+      return "April";
+      break;
+    case "may":
+      return "May";
+      break;
+    case "jun":
+      return "June";
+      break;
+    case "jul":
+      return "July";
+      break;
+    case "aug":
+      return "August";
+      break;
+    case "sep":
+      return "September";
+      break;
+    case "oct":
+      return "October";
+      break;
+    case "nov":
+      return "November";
+      break;
+    case "dec":
+      return "December";
+  }
+}
+
 const fs = require("fs");
-const logStream = fs.createWriteStream("catchup.txt", { flags: "a" });
+const logStream = fs.createWriteStream(`${dirName}-catchup.txt`, {
+  flags: "a",
+});
 
 const originalLog = console.log;
 
@@ -803,7 +851,11 @@ console.log = function (...args) {
   logStream.write(args.join(" ") + "\n"); // also writes to file
 };
 
-console.log(`\nRecord of active orders late or due on 4/25/25 as of: ${date}`);
+console.log(
+  `\nRecord of active orders late or due on ${getMonth(
+    dirMonth
+  )} ${dirName.slice(4, 6)} 2025 as of: ${date}`
+);
 
 let numberOfOrderProducts = objsArr.length;
 
