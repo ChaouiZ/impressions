@@ -1,79 +1,78 @@
 Imp     Col si  c1  c2  c3  ordr#   itemid
 
-{impressions:600 ,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:218594,  orderID:"A",},
-{impressions:3200,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:218540,  orderID:"A",},
-{impressions:3200,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:218540,  orderID:"B",},
-{impressions:1000,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:218757,  orderID:"A",},
-{impressions:400 ,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:218721,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"pms", color2:"pms", color3:" ", orderNumber:219965,  orderID:"A",},
-{impressions:100 ,    colors:2,   sides:1,   color1:"b", color2:"g", color3:" ", orderNumber:218296,  orderID:"A",},
-{impressions:267 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:220330,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:220022,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"pms", color2:"pms", color3:" ", orderNumber:219292,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"pms", color2:"pms", color3:" ", orderNumber:219292,  orderID:"B",}, 
-{impressions:4000,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:219273,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:220426,  orderID:"A",},
-{impressions:200 ,    colors:2,   sides:2,   color1:"rb", color2:"b", color3:" ", orderNumber:219736,  orderID:"A",},
-{impressions:1600,    colors:2,   sides:2,   color1:"pms", color2:"b", color3:" ", orderNumber:219501,  orderID:"A",},
-{impressions:300 ,    colors:1,   sides:1,   color1:"b", color2:" ", color3:" ", orderNumber:219422,  orderID:"A",},
-{impressions:100 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:219383,  orderID:"A",},
-{impressions:500 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:219363,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"xb", color2:"bo", color3:" ", orderNumber:219321,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"xb", color2:"bo", color3:" ", orderNumber:219321,  orderID:"B",}, 
-{impressions:300 ,    colors:2,   sides:2,   color1:"rb", color2:"g", color3:" ", orderNumber:219314,  orderID:"B",}, 
-{impressions:400 ,    colors:2,   sides:2,   color1:"fr", color2:"b", color3:" ", orderNumber:219314,  orderID:"C",}, 
-{impressions:100 ,    colors:1,   sides:2,   color1:"g", color2:" ", color3:" ", orderNumber:219274,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:219270,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"b", color2:"fr", color3:" ", orderNumber:219214,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"g", color2:" ", color3:" ", orderNumber:218769,  orderID:"A",},
-{impressions:200 ,    colors:2,   sides:2,   color1:"pms", color2:"b", color3:" ", orderNumber:218567,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"g", color2:" ", color3:" ", orderNumber:218465,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:219640,  orderID:"A",},
-{impressions:600 ,    colors:2,   sides:2,   color1:"xb", color2:"lg", color3:" ", orderNumber:219617,  orderID:"A",},
-{impressions:50  ,    colors:1,   sides:1,   color1:"b", color2:" ", color3:" ", orderNumber:219584,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"g", color2:" ", color3:" ", orderNumber:219570,  orderID:"B",}, 
-{impressions:200 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:219497,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:219486,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:219476,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"b", color2:"g", color3:" ", orderNumber:219465,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"b", color2:" ", color3:" ", orderNumber:219449,  orderID:"A",},
-{impressions:150 ,    colors:3,   sides:2,   color1:"p", color2:"b", color3:"ly", orderNumber:219427,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"pms", color2:" ", color3:" ", orderNumber:219405,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"b", color2:"ly", color3:" ", orderNumber:220435,  orderID:"A",},
-{impressions:160 ,    colors:2,   sides:1,   color1:"fr", color2:"xb", color3:" ", orderNumber:220434,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:1,   color1:"fr", color2:"b", color3:" ", orderNumber:219387,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:1,   color1:"fr", color2:"b", color3:" ", orderNumber:219380,  orderID:"A",},
-{impressions:600 ,    colors:3,   sides:2,   color1:"pms", color2:"fr", color3:"pb", orderNumber:219354,  orderID:"A",},
-{impressions:100 ,    colors:2,   sides:2,   color1:"ly", color2:"xb", color3:" ", orderNumber:219302,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"xb", color2:"pb", color3:" ", orderNumber:219254,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:1,   color1:"fr", color2:"b", color3:" ", orderNumber:219252,  orderID:"A",},
-{impressions:600 ,    colors:3,   sides:2,   color1:"lg", color2:"b", color3:"bo", orderNumber:219077,  orderID:"A",},
-{impressions:100 ,    colors:2,   sides:2,   color1:"fr", color2:"b", color3:" ", orderNumber:219005,  orderID:"A",},
-{impressions:50  ,    colors:1,   sides:2,   color1:"g", color2:" ", color3:" ", orderNumber:220536,  orderID:"A",},
-{impressions:100 ,    colors:2,   sides:2,   color1:"lg", color2:"b", color3:" ", orderNumber:219631,  orderID:"A",},
-{impressions:100 ,    colors:1,   sides:2,   color1:"xb", color2:" ", color3:" ", orderNumber:219624,  orderID:"A",},
-{impressions:100 ,    colors:1,   sides:2,   color1:"fr", color2:" ", color3:" ", orderNumber:219609,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"b", color2:"rb", color3:" ", orderNumber:219606,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"b", color2:"rb", color3:" ", orderNumber:219606,  orderID:"B",}, 
-{impressions:100 ,    colors:2,   sides:2,   color1:"pb", color2:"b", color3:" ", orderNumber:219591,  orderID:"A",},
-{impressions:25  ,    colors:1,   sides:1,   color1:"xb", color2:" ", color3:" ", orderNumber:219588,  orderID:"A",},
-{impressions:100 ,    colors:2,   sides:2,   color1:"pms", color2:"pms", color3:" ", orderNumber:219583,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"fr", color2:"b", color3:" ", orderNumber:219563,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"b", color2:"bo", color3:" ", orderNumber:219557,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:2,   color1:"pb", color2:"bo", color3:" ", orderNumber:219549,  orderID:"A",},
-{impressions:200 ,    colors:2,   sides:1,   color1:"pb", color2:"bo", color3:" ", orderNumber:219546,  orderID:"A",},
-{impressions:400 ,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:219526,  orderID:"A",},
-{impressions:200 ,    colors:1,   sides:2,   color1:"xb", color2:" ", color3:" ", orderNumber:219523,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:1,   color1:"fr", color2:"b", color3:" ", orderNumber:219519,  orderID:"A",},
-{impressions:400 ,    colors:2,   sides:1,   color1:"fr", color2:"b", color3:" ", orderNumber:219517,  orderID:"A",},
-{impressions:1200,    colors:2,   sides:2,   color1:"b", color2:"pms", color3:" ", orderNumber:219516,  orderID:"A",},
-{impressions:100 ,    colors:2,   sides:2,   color1:"fr", color2:"g", color3:" ", orderNumber:219498,  orderID:"A",},
-{impressions:600 ,    colors:3,   sides:2,   color1:"pb", color2:"rb", color3:"xb", orderNumber:219470,  orderID:"A",},
-{impressions:150 ,    colors:3,   sides:2,   color1:"pb", color2:"rb", color3:"xb", orderNumber:219470,  orderID:"B",}, 
-{impressions:200 ,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:219439,  orderID:"A",},
-{impressions:100 ,    colors:2,   sides:2,   color1:"b", color2:"bo", color3:" ", orderNumber:219428,  orderID:"A",},
-{impressions:200 ,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:219425,  orderID:"A",},
-{impressions:200 ,    colors:2,   sides:2,   color1:"ly", color2:"g", color3:" ", orderNumber:219184,  orderID:"A",},
-{impressions:300 ,    colors:2,   sides:2,   color1:"b", color2:"pms", color3:" ", orderNumber:218876,  orderID:"A",},
-{impressions:200 ,    colors:2,   sides:2,   color1:"b", color2:"rb", color3:" ", orderNumber:218831,  orderID:"A",},
-{impressions:800 ,    colors:2,   sides:2,   color1:"fr", color2:"b", color3:" ", orderNumber:218532,  orderID:"A",},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

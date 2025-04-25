@@ -69,7 +69,9 @@ function getMonth(directoryMonthStr) {
 }
 
 const fs = require("fs");
-const logStream = fs.createWriteStream("count.txt", { flags: "a" });
+const logStream = fs.createWriteStream(`${dirName}-count.txt`, {
+  flags: "a",
+});
 
 const originalLog = console.log;
 
@@ -79,7 +81,7 @@ console.log = function (...args) {
 };
 
 console.log(
-  `\nRecord of active orders late or due on ${getMonth(
+  `\nRecord of active orders coming due on ${getMonth(
     dirMonth
   )} ${dirName.slice(4, 6)} 2025 as of: ${date}`
 );
