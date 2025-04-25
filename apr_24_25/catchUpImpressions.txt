@@ -1,4 +1,4 @@
-Imp     Col si  c1  c2  c3  ordr#   itemid:
+Imp     Col si  c1  c2  c3  ordr#   itemid
 
 {impressions:600 ,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:218594,  orderID:"A",},
 {impressions:3200,    colors:4,   sides:2,   color1:" ", color2:" ", color3:" ", orderNumber:218540,  orderID:"A",},
