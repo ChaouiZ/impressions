@@ -485,9 +485,6 @@ function analyzeOneColorObjs(arr) {
     console.log(
       `\n${obj.colorName} - ${obj.products} products - ${obj.impressions} impressions`
     );
-    //         for (let i = 0; i < colObjectArr.orderNumbers.length; i++) {
-    //           console.log(`${colObjectArr.orderNumbers[i]} ${colObjectArr.itemIds[i]}`)
-    // }
     for (let i = 0; i < obj.orderNumbers.length; i++) {
       console.log(`${obj.orderNumbers[i]} ${obj.itemIds[i]}`);
     }
